@@ -1,6 +1,6 @@
-for (let i = 0; i < 18; i++) {
-    console.log("Loop iteration: " + i);
-    alert('Action completed!');
+document.querySelector(".modal").addEventListener("click", function() {
+    console.log("Event change triggered");
     el.classList.add('active');
-    return x - y;
-}
+    error.textContent = '';
+    alert('Action completed!');
+});
